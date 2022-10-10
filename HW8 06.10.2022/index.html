@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="myDiv" class="container">
+        <h1>
+            СПИСОК ТОВАРОВ МАГАЗИНА
+        </h1>
+        <input type="text" id="nameInput" placeholder="Введите название товара">
+        <input type="text" id="characteristicInput" placeholder="Описание/Характеристики">
+        <input type="text" id="priceInput" placeholder="Цена товара">
+        <button onclick="newElement()" class="addBtn">
+            Add
+        </button>
+    </div>
+    <h3>Название товара - Описание товара - Цена товара</h3>
+    <ul id="myUl">
+        <li>Xiaomi Redmi Note 11 | Android, 5000 mAh, 64 MP, Интерфейс USB Type-C; Выход аудио/наушники | 98 990</li>
+        <li>Apple iPhone 14 Pro Max | IOS, 4900 mAh, 128 MP, Интерфейс USB Type-C; Выход аудио/наушники | 979 990</li>
+        <li>Samsung Galaxy Z Flip 4 | Android, 4900 mAh, 128 MP, USB Type-C, 120 Гц | 599 990</li>
+    </ul>
+   <script src="script.js"></script>
+</body>
+</html>
